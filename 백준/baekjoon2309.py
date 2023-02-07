@@ -9,10 +9,6 @@ for _ in range(9):
 #list 총합
 sumDwarfs = sum(dwarfs)
 
-#notDwarf1 notDwarf2 빼기
-notDwarf1 = 0
-notDwarf2 = 0
-
 for i in range(0, 8):
   for j in range(1, 9):
     a = sumDwarfs - dwarfs[i] - dwarfs[j]
